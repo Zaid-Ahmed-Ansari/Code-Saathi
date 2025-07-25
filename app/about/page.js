@@ -19,27 +19,27 @@ export default function AboutPage() {
     {
       title: "Personalized Learning",
       description: "Get one-on-one attention from industry experts who tailor their teaching to your needs.",
-      icon: "👨‍🏫"
+      
     },
     {
       title: "Flexible Schedule",
       description: "Book sessions at your convenience, with mentors available across different time zones.",
-      icon: "🕒"
+     
     },
     {
       title: "Real-world Projects",
       description: "Work on practical projects that enhance your portfolio and job-ready skills.",
-      icon: "💼"
+      
     },
     {
       title: "Career Guidance",
       description: "Get insights into industry trends and career paths from experienced professionals.",
-      icon: "🎯"
+      
     }
   ];
 
   return (
-    <div className="min-h-screen bg-neutral-950 py-40">
+    <div suppressHydrationWarning={true} className="min-h-screen bg-neutral-950 py-40">
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Hero Section */}

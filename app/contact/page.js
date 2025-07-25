@@ -24,22 +24,18 @@ export default function ContactPage() {
     {
       title: "Email",
       value: "hello@codesaathi.com",
-      icon: "📧"
     },
     {
       title: "Phone",
       value: "+91 98765 xxxxx",
-      icon: "📱"
     },
     {
       title: "Location",
       value: "Delhi, India",
-      icon: "📍"
     },
     {
       title: "Hours",
       value: "24/7 Support",
-      icon: "⏰"
     }
   ];
 

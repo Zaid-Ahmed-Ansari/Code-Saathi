@@ -249,10 +249,10 @@ const AnimatedTitle = memo(function AnimatedTitle({
                 </h1>
             </motion.div>
             <motion.div custom={2} variants={fadeUpVariants} initial="hidden" animate="visible">
-                <p
+                <div
                     className="text-base sm:text-lg md:text-xl text-black/40 dark:text-white/40 mb-8 leading-relaxed font-light tracking-wide max-w-xl mx-auto px-4">
                     <TypewriterTitle />
-                </p>
+                </div>
                 <Button
               variant="outline"
               className="group border-rose-300 text-rose-200 hover:bg-rose-100/10 hover:text-rose-400 transition-all px-6 py-3 rounded-xl text-base font-semibold inline-flex items-center gap-2"

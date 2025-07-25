@@ -88,14 +88,14 @@ export default function TypewriterTitle({
     ]);
 
     return (
-        (<div className="relative w-full max-w-4xl mx-auto ">
+        (<div suppressHydrationWarning={true} className="relative w-full max-w-4xl mx-auto ">
             <div
                 className="relative text-center z-10 flex flex-col items-center justify-center"
                 ref={scope}>
                 <motion.div
                     className="text-md md:text-xl font-mono text-black dark:text-white tracking-tight flex items-center gap-2"
                     initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}>
+                    animate={{ opacity: 1 }}>   
                     <span
                         data-typewriter
                         className="inline-block animate-cursor pr-1">

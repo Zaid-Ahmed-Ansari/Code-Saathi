@@ -6,6 +6,13 @@
 
 ---
 
+## ⚡ Performance Note
+> **On first run, pages may take extra time to load as Next.js compiles them locally. This is normal and depends on your PC specs.**
+>
+> This does **not** reflect the real-world speed of the website. For an accurate speed test, visit each page once to let it build, then reload or navigate again—subsequent loads will show the true performance you would get in production or after deployment.
+
+---
+
 ## 📝 Submission Notes
 - **Participant:** Zaid Ahmed Ansari
 - **Competition:** Web Dev Quiz Showdown by Code Saathi
@@ -27,6 +34,7 @@ Code Saathi helps aspiring developers connect with experienced mentors, discover
 - **Animations**: Framer Motion for smooth transitions.
 - **Navbar & Footer**: Translucent, modern, and consistent across pages.
 - **Toast Notifications**: User feedback for actions (e.g., copying links).
+- **Login Button (Navbar)**: Present as a placeholder for future authentication features. **It does not function in this demo.**
 
 ---
 
