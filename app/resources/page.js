@@ -133,7 +133,7 @@ export default function ResourcesPage() {
   };
 
   return (
-    <div suppressHydrationWarning={true} className="min-h-screen bg-neutral-950 py-40">
+    <div  className="min-h-screen bg-neutral-950 py-40">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-10">
           <ActionSearchBar
