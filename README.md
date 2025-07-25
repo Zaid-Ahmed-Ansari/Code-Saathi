@@ -49,6 +49,21 @@ Code Saathi helps aspiring developers connect with experienced mentors, discover
 
 ---
 
+## ⚡ Quick Start
+
+Clone the repository and run the project locally:
+
+```bash
+git clone https://github.com/Zaid-Ahmed-Ansari/Code-Saathi.git
+cd code-sathi
+npm install
+npm run dev
+```
+
+Then open [http://localhost:3000](http://localhost:3000) in your browser.
+
+---
+
 ## 🗂️ Project Structure
 - `app/` — Next.js App Router pages
   - `page.js` — Homepage
